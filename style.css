@@ -1,5 +1,19 @@
+body {
+    background-color:lightcoral;
+}
+
 h1 {
     text-align: center;
+}
+
+h2 {
+    text-align: center; 
+}
+
+h3 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: medium;
 }
 
 img {
@@ -9,14 +23,38 @@ img {
 p {
     width: 800px;
     margin: 0 auto; 
-    color: black;
+    color: black; 
 }
 
 #main {
     color: black; 
+    font-family:cursive; 
     font-size: large;
-    position: relative; 
-    top: -500px; 
     text-align: center;
+    position: relative; 
+    top: -60vh; 
+}
+
+#support {
+    color: black;
+    font-family:cursive; 
+    font-size: large;
+    text-align: center; 
+    position: relative; 
+    top: -40vh; 
+}
+
+.centered-list-title {
+    position: absolute;
+    top: 80px; 
+    right: -500px; 
+}
+
+.centered-list {
+    position: absolute;
+    top: 100px; 
+    right: 20px; 
+    text-align: left; 
+    list-style-position: inside;
 }
 

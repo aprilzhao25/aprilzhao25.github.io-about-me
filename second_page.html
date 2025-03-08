@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>April Zhao's Website</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <h2>Additional Background</h2>
+    <img src="https://ih1.redbubble.net/image.2761494883.9983/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="Axolotl" width="400" style = "display: block; margin: right;">
+
+    <p id = 'support'>For my current research project, I am working with ATAC-seq datasets to investigate the epigenetic mechanisms underlying limb regeneration in axolotls. The goal is to determine which genes are activated or silenced during and after the regeneration process. ATAC-seq is a technique that identifies open chromatin regions where transcription factors bind to regulate gene expression, providing insight into the regulatory element of regeneration in all tissue samples that I am working with. </p><br>
+    <p id = 'support'>To begin, I retrieved ATAC-seq datasets from the Sequence Read Archive (SRA) using NCBI’s SRA selector. These raw datasets, consisting of paired-end FASTQ files per SRR ID (forward and reverse sequences), were transferred to a high-performance computing (HPC) cluster for processing. As part of the preprocessing pipeline, I trimmed adapter sequences from the Illumina reads using Cutadapt, although I am still troubleshooting certain aspects of the trimming step to optimize data quality. Additionally, I have obtained and indexed the axolotl reference genome, a critical step in aligning ATAC-seq reads. With indexing complete, I am now preparing to align the sequencing data to the reference genome using Bowtie2. 
+    </p><br>
+    <p id = 'support'>Looking back at this process, since I was very unfamiliar with utilizing the command line, Linux/UNIX environments, bash scripting, as well as HPC cluster, this whole process has been a steep learning curve. I’ve also run into various issues where my jobs in the cluster would fail due to insufficient resource allocation or running into storage issues with the HPC cluster. Despite these challenges, I am continuously learning how to optimize workflows and manage large genomic datasets more efficiently. 
+    </p><br>
+
+    <p class = 'centered-list-title'>Next Research Steps:</p>
+    <ol class = 'centered-list'>
+        <li>ATAC-seq peak calling with quantification, fitering, and normalization</li>
+        <li>Data visualization </li>
+        <li>Peak annotations</li>
+        <li>Pairwise comparisons of limb segments</li>
+        <li>Filtering and clustering of segment specific peaks</li>
+    </ol>
+   
+    <p id = 'support'>Click <a href="index.html">here</a> to return to my home page.</p>
+</body>
+</html> 
