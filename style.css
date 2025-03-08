@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    width: 800px;
+    margin: 0 auto; 
+    color: blue;
+}
+
+#main {
+    color: burlywood; 
+    background-color: blanchedalmond;
+}
+
+.A {
+    border: 5px solid black;
+    padding: 0 10px 20px 30px;
+    background-color: pink;
+}
