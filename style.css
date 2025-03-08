@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+img {
+    text-align: center; 
+}
+
 p {
     width: 800px;
     margin: 0 auto; 
