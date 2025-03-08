@@ -1,7 +1,3 @@
-body {
-    background-color:lightcoral ;
-}
-
 h1 {
     text-align: center;
 }
@@ -13,16 +9,14 @@ img {
 p {
     width: 800px;
     margin: 0 auto; 
-    color: blue;
+    color: black;
 }
 
 #main {
-    color: burlywood; 
-    background-color: blanchedalmond;
+    color: black; 
+    font-size: large;
+    position: relative; 
+    top: -500px; 
+    text-align: center;
 }
 
-.A {
-    border: 5px solid black;
-    padding: 0 10px 20px 30px;
-    background-color: pink;
-}
